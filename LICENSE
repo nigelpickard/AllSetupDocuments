@@ -1,0 +1,19 @@
+1. create a new repository in github without any ignores, readmes, etc, e.g. nothing should be checked.
+2. create in Eclipse your project, e.g. AbstractFactoryPattern
+3. go to command line.  In the project directory do:
+	i. git init
+	ii. touch README.md
+	iii. git add README.md
+	iv. git commit -m "first commit"
+	v. git remote add origin https://github.com/nigelpickard/HibernateExamples.git
+	vi. git push -u origin master
+
+where the "AbstractFactoryPattern" is replaced with the appropriate project you are working with.
+
+Note:
+
+GitHub recommends adding at least these files:
+
+README
+LICENSE
+.gitignore
